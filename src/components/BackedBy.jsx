@@ -11,27 +11,27 @@ const BackedBy = () => {
         <h1 className="text-4xl text-white uppercase font-bold px-2">
           Backed By
         </h1>
-        <div className="relative flex items-center left-[-5%]">
-          <img src={Microsoft} alt="/" className="w-[300px] h-[240px]" />
-          <img src={PedalStart} alt="/" />
+        <div className="relative flex items-center left-[-5%] md:left-[-4%]">
+          <img src={Microsoft} alt="/" className="w-[300px] h-[240px] md:w-[250px] md:h-[200px] sm:w-[200px] sm:h-[160px]" />
+          <img src={PedalStart} alt="/" className='md:w-[150px]'/>
         </div>
 
         {/* social Icons */}
-        <div className="flex text-white w-full max-w-[600px] items-center">
-          <div className="w-16 h-16 bg-blue-600 flex items-center justify-center rounded-[50%] border-[none] mr-6">
-            <ImLinkedin2 className="text-4xl" />
+        <div className="flex text-white w-full max-w-[600px] items-center md:w-[560px] sm:w-[400px]">
+          <div className="w-16 h-16 bg-blue-600 flex items-center justify-center rounded-[50%] border-[none] mr-6 md:w-12 md:h-12 sm:w-10 sm:h-10 sm:mr-2">
+            <ImLinkedin2 className="text-4xl md:text-3xl sm:text-2xl" />
           </div>
-          <div className="w-16 h-16 bg-blue-200 flex items-center justify-center rounded-[50%] border-[none] mr-6">
-            <FaDiscord className="text-4xl" />
+          <div className="w-16 h-16 bg-blue-200 flex items-center justify-center rounded-[50%] border-[none] mr-6 md:w-12 md:h-12 sm:w-10 sm:h-10 sm:mr-2">
+            <FaDiscord className="text-4xl md:text-3xl  sm:text-2xl" />
           </div>
-          <div className="w-16 h-16 bg-blue-700 flex items-center justify-center rounded-[50%] border-[none] mr-6">
-            <ImFacebook className="text-4xl" />
+          <div className="w-16 h-16 bg-blue-700 flex items-center justify-center rounded-[50%] border-[none] mr-6 md:w-12 md:h-12 sm:w-10 sm:h-10 sm:mr-2">
+            <ImFacebook className="text-4xl md:text-3xl  sm:text-2xl" />
           </div>
-          <div className="w-16 h-16 bg-gray-500 flex items-center justify-center rounded-[50%] border-[none] mr-6">
-            <SiGmail className="text-4xl" />
+          <div className="w-16 h-16 bg-gray-500 flex items-center justify-center rounded-[50%] border-[none] mr-6 md:w-12 md:h-12 sm:w-10 sm:h-10 sm:mr-2">
+            <SiGmail className="text-4xl md:text-3xl  sm:text-2xl" />
           </div>
-          <div className="w-16 h-16 bg-blue-400 flex items-center justify-center rounded-[50%] border-[none] mr-6">
-            <ImTwitter className="text-4xl" />
+          <div className="w-16 h-16 bg-blue-400 flex items-center justify-center rounded-[50%] border-[none] mr-6 md:w-12 md:h-12 sm:w-10 sm:h-10 sm:mr-2">
+            <ImTwitter className="text-4xl md:text-3xl  sm:text-2xl" />
           </div>
         </div>
       </div>
