@@ -17,7 +17,7 @@ const BackedBy = () => {
         </div>
 
         {/* social Icons */}
-        <div className="flex text-white w-full max-w-[600px] items-center md:w-[560px] sm:w-[400px] lg:w-[460px]">
+        <div className="flex text-white w-full max-w-[590px] items-center md:w-[560px] sm:w-[400px] lg:w-[460px]">
           <div className="w-16 h-16 bg-blue-600 flex items-center justify-center rounded-[50%] border-[none] mr-6 md:w-12 md:h-12 sm:w-10 sm:h-10 sm:mr-2 md:mr-2 lg:mr-2">
             <ImLinkedin2 className=" pb-1 text-4xl md:text-3xl sm:text-2xl" />
           </div>
